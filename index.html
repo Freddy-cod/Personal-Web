@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Personal Webpage</h1>
+      <img src="miname.jpg" alt="Alfred" width="150" />
+
+      <!-- Dropdown Menu -->
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="saveforlater.html">Save for Later</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <button class="save-btn" data-title="About Me Section">
+        Save for Later
+      </button>
+      <button class="like-btn" data-title="About Me Section">Like ❤️</button>
+      <img
+        src="about-me.jpg"
+        alt="About Me"
+        width="300"
+        style="border-radius: 8px; margin-bottom: 15px"
+      />
+      <p>
+        Hi, I'm Alfred, a passionate and driven individual with a background in
+        Data Science...
+      </p>
+    </section>
+
+    <section id="testimonial-section">
+      <h2>Testimonial</h2>
+      <blockquote>
+        "Alfred is an exceptional Data Scientist with a keen eye for detail and
+        a passion for solving complex problems."
+        <footer>— Andre NG</footer>
+      </blockquote>
+      <button id="toggleTestimonial">Hide/Show Testimonial</button>
+    </section>
+
+    <section id="animate-section">
+      <h2>My Mission</h2>
+      <div class="animated-box">Empowering innovation through data and AI</div>
+      <button id="animateBtn">Animate Mission Box</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Alfred Ndlovu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="saveforlater.html">Save for Later</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>My Journey</h2>
+      <p>
+        I started my career in data science 3 years ago and have since worked on
+        various projects involving machine learning and AI.
+      </p>
+      <img
+        src="journey.jpg"
+        alt="My Journey"
+        width="400"
+        style="border-radius: 8px"
+      />
+      <button class="save-btn" data-title="My Journey">Save for Later</button>
+      <button class="like-btn" data-title="My Journey">Like ❤️</button>
+    </section>
+
+    <section>
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Reading</li>
+        <li>Traveling</li>
+        <li>Playing Chess</li>
+      </ul>
+      <button class="save-btn" data-title="My Hobbies">Save for Later</button>
+      <button class="like-btn" data-title="My Hobbies">Like ❤️</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Alfred Ndlovu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
